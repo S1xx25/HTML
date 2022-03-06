@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria C-137</title>
+</head>
+<body>
+    <img src="./imagen/pasteleria.png" alt="logo Pasteleria C-137" width="250px">
+    <h1>Binvenidos a C-137</h1>
+
+    <form action="Pedido.js"> 
+            <h2 id="Sabores">Sabores</h2>
+            <p>Selecciona los sabores que quieres....</p>
+                <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+                <label for="Chocolate">Chocolate $225</label><br>
+                <input type="checkbox" id="Napolitano" name="Napolitano" value="Napolitano">
+                <label for="Napolitano">Napolitano $225</label><br>
+                <input type="checkbox" id="Naranja" name="Naranja" value="Naranja">
+                <label for="Naranja">Naranja $300</label><br>
+            <hr>    
+    
+            <h2 id="Topping">Topping</h2>
+            <p>Selecciona todos los Toppings que necesites para tu pastel....</p>
+                <input type="checkbox" id="Lunetas" name="Lunetas" value="Lunetas">
+                <label for="Lunetas">Lunetas $25</label><br>
+                <input type="checkbox" id="Conejos de Chocolate" name="Conejos de Chocolate" value="Conejos de Chocolate">
+                <label for="Conejos de Chocolate">Conejos de Chocolate $35</label><br>
+                <input type="checkbox" id="Fruta" name="Fruta" value="Fruta">
+                <label for="Fruta">Fruta $40</label><br>
+                <input type="checkbox" id="EChocolate" name="EChocolate" value="EChocolate">
+                <label for="EChocolate">Extra Chocolate $20</label><br><br>
+            <hr>       
+
+            <h2 id="Factura">Factura</h2>
+            <p>Ingresa sus datos para Realizar su pedido:</p>
+                <label for="Nombre">Nombre:</label><br>
+                <input type="Nombre" id="Name" name="Name"><br>
+                <label for="Correo Electrónico">Correo Electrónico:</label><br>
+                <input type="Correo Electrónico" id="Correo Electrónico" name="Correo Electrónico"><br>
+                <label for="Telefono">Teléfono:</label><br>
+                <input type="Telefono" id="Telefono" name="Telefono"><br><br>
+                <label for="Descripción">Descripción general del tu pastel:</label><br>
+                <textarea id="Descripción" name="Descripción" rows="5" cols="50"></textarea><br>   
+    </form> 
+            <a href="./pedido.html">
+               <button>Hacer Pedido</button>
+            </a>
+           <br><br> 
+
+           <p>Direccion------------Av siempre viva 1563, CDMX, #84848</p>
+           <p>Horario----- ------- Lunes a Sabado de 11:00 AM- 5:00 PM </p>
+           <br>
+</body>
+</html>
